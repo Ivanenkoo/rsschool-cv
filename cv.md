@@ -26,7 +26,7 @@
 * Academy of the Ministry of Internal Affairs of the Republic of Belarus - faculty of law, jurisprudence, lawyer;
 * HTML Academy (online simulators)
 * RRSchool (in progress);
-
+ 
 ## **Language:**
 * Russian - Native
 * English - B1-B2 Intermediate/Upper-intermediate (according to the online test at [EFset](https://www.efset.org))
