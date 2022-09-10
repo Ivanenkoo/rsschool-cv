@@ -13,7 +13,7 @@
  
 ## **About me:**
 >*A girl with a higher legal education who decided to change her occupation. A competent, executive, conscientious person, with an excellent ability not to get lost in unusual situations. Energetic, friendly and i have good interpersonal skills, open to everything new, I quickly learn and memorize new information and use it in practice. I am excellent at working in a team, as well as striving to acquire new skills and knowledge.*
-
+ 
 ## **Skills and Proficiency:**
 * HTML
 * CSS
