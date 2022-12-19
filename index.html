@@ -2,18 +2,17 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="reset.css" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="assets/ico/favicon.ico" />
-  <title>CV Katsiaryna Malafei</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/ico/favicon.ico" />
+    <title>CV Katsiaryna Malafei</title>
 </head>
-
 <body>
-  <div class="wrapper" id="top">
     <header>
+      <div class="wrapper" id="top"></div>
       <nav class="nav">
         <ul class="nav_menu">
           <li><a href="#about_me">About me</a></li>
@@ -25,7 +24,6 @@
         </ul>
       </nav>
     </header>
-  </div>
     <main>
       <div class="content_wrapper">
         <div class="info">
@@ -35,13 +33,12 @@
           <div class="info_description">
             <h1 class="name">Katsiaryna Malafei</h1>
             <h2 class="h">Junior Front-End Web Developer</h2>
-            <h3 class="location">Location: Minsk, Belarus</h3>
+            <h3 class="location" id="about_me">Location: Minsk, Belarus</h3>
           </div>
         </div>
-      </div>
-        <div class="about" id="about_me">
+        <div class="about">
           <p class="about_title">About me:</p>
-          <p class="about_description">
+          <p class="about_description" id="contact">
             A girl with a higher legal education who decided to change her
             occupation. A competent, executive, conscientious person, with an
             excellent ability not to get lost in unusual situations.
@@ -51,16 +48,16 @@
             as striving to acquire new skills and knowledge.
           </p>
         </div>
-        <div class="list_block" id="contact">
+        <div class="list_block">
           <p class="list_title">Contact:</p>
-          <ol class="list_wrapper">
+          <ol class="list_wrapper"  id="education">
             <li class="list_item">Email: katya.ivanenkoo@gmail.com</li>
             <li class="list_item">Phone: +375259691535</li>
             <li class="list_item">Telegram: @Katya_Ivanenko</li>
             <li class="list_item">Discord: ๖ۣۜKatya Ivanenko #4470</li>
           </ol>
         </div>
-        <div class="list_block_educ" id="education">
+        <div class="list_block_educ">
           <p class="list_title">Education:</p>
           <ol class="list_wrapper">
             <li class="list_item">Law College Belarusian State University - lawyer;</li>
@@ -69,20 +66,21 @@
             <li class="list_item">HTML Academy (online simulators)</li>
             <li class="list_item">RRSchool (in progress);</li>
           </ol>
-          <p class="list_eng">English - B1-B2 Intermediate/Upper-intermediate according to the online test at <a
+          <p class="list_eng" id="skills">English - B1-B2 Intermediate/Upper-intermediate according to the online test at <a
               href="https://www.efset.org" class="list_img_link"><img src="assets/img/efset.png" alt="efset-logo"
                 width="100" height="30"></a></p>
         </div>
-        <div class="list_block" id="skills">
+        <div class="list_block">
           <p class="list_title">Skills:</p>
-          <ol class="list_wrapper">
+          <ol class="list_wrapper" id="code">
             <li class="list_item">HTML, CSS</li>
             <li class="list_item">JavaScript Basics</li>
             <li class="list_item">Git, GitHub</li>
             <li class="list_item">VSCode</li>
           </ol>
         </div>
-        <div class="list_block" id="code">
+      </div>
+        <div class="list_block">
           <p class="list_title">Code Example:</p>
           <pre class="pre">
                 <code class="code_example">  
@@ -95,7 +93,7 @@
                   }
                 </code>
               </pre>
-        </div>      
+        </div>
     </main>
     <footer>
       <a href="https://rs.school/js/">
@@ -105,5 +103,5 @@
           height="50"></a>
     </footer>
 </body>
-    
+
 </html>
